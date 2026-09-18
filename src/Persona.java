@@ -1,6 +1,8 @@
 import java.time.LocalDate;
 
 public class Persona {
+    private String email;
+    private String password;
     private String nome;
     private String cognome;
     private String codiceFiscale;
@@ -22,19 +24,31 @@ public class Persona {
         this.cognome = cognome;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
     public String getCodiceFiscale() {
         return codiceFiscale;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public void setCodiceFiscale(String codiceFiscale) {
         this.codiceFiscale = codiceFiscale;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
     public LocalDate getDataNascita() {
         return dataNascita;
     }
 
-    public void setDataNascita(LocalDate dataNascita) {
-        this.dataNascita = dataNascita;
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
