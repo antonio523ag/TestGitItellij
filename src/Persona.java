@@ -26,7 +26,8 @@ public class Persona {
 
     public String getEmail() {
         return email;
-        }
+    }
+
     public String getCodiceFiscale() {
         return codiceFiscale;
     }
@@ -34,13 +35,15 @@ public class Persona {
     public void setEmail(String email) {
         this.email = email;
     }
-        public void setCodiceFiscale(String codiceFiscale) {
+
+    public void setCodiceFiscale(String codiceFiscale) {
         this.codiceFiscale = codiceFiscale;
     }
 
     public String getPassword() {
         return password;
     }
+
     public LocalDate getDataNascita() {
         return dataNascita;
     }
